@@ -13,6 +13,8 @@ Faculté des sciences, Université de Sherbrooke (Québec, Canada).
 
 Professeur à l’Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA); Université de Rennes (France). 
 
+Matériel pédagogique : https://gitlab.com/odameron/eins2023
+
 ## Modélisation et raisonnement sur les parcours de soins 
 **Thomas GUYET**
 
