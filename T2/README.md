@@ -19,3 +19,5 @@ Matériel pédagogique : https://gitlab.com/odameron/eins2023
 **Thomas GUYET**
 
 Chercheur à l’Institut national de recherche en sciences et technologies du numérique (Inria) à Lyon (France).
+
+Matériel pédagogique : https://gitlab.inria.fr/tguyet/Cours_EINS
