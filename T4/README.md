@@ -1,6 +1,6 @@
 # Consentement et transparence en contexte d’utilisation des données en santé.
 
-Ce répertoire contient le matériel pégagogique du thème 2 - Consentement et transparence en contexte d’utilisation des données en santé.
+Ce répertoire contient le matériel pégagogique du thème 4 - Consentement et transparence en contexte d’utilisation des données en santé.
 
 ## Information, confiance et acceptabilité sociale du partage des renseignements de santé : éléments de conception d’une politique publique
 **Daniel CARON**
