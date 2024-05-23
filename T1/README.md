@@ -1,23 +1,26 @@
-# Modélisation de données et des connaissances en santé
+# Introduction aux systèmes de santé apprenants
 
-Ce répertoire contient le matériel pégagogique du thème 1 - Modélisation de données et des connaissances en santé. 
+Ce répertoire contient le matériel pégagogique du thème 1.
 
-## Avalanche des données et diversité des recherches
+## Numérique de la santé les défis et les solutions potentielles
 **Anita BURGUN**
 
-Professeure en informatique biomédicale à l’Université Paris Cité (France) et professeure associée à l’Université de Sherbrooke (Québec, Canada).
+Professeure en informatique biomédicale, Université Paris Cité (Paris, France).
+
+Professeure associée, Faculté de médecine et des sciences de la santé, Université de Sherbrooke (Québec, Canada).
+
+## Intelligence artificielle : êtes-vous prêt à accompagner vos étudiants et vos patients ?
+**Jean-François ÉTHIER**
+
+Professeur titulaire en médecine à l’Université de Sherbrooke (Québec, Canada).
+
+Cofondateur et codirecteur scientifique du GRIIS
+
+Titulaire de la Chaire de recherche en informatique de la santé de l’Université de Sherbrooke
 
 ## Des données aux modèles, de la logique aux relations
 **Luc LAVOIE**
 
-Professeur au Département d’informatique de la Faculté des sciences de l’Université de Sherbrooke ainsi que cofondateur et codirecteur du GRIIS (Québec, Canada).
+Professeur au Département d’informatique de la Faculté des sciences de l’Université de Sherbrooke (Québec, Canada).
 
-## Méthodes et outils pour le développement d'ontologies biomédicales
-**Paul FABRY**
-
-Doctorant en informatique au GRIIS à l’Université de Sherbrooke (Québec, Canada).
-
-## Introduction au fondement BFO (Basic Formal Ontology)
-**Barry SMITH**
-
-Professeur en informatique biomédicale, University of Buffalo (New York, États-Unis).
+Cofondateur et codirecteur scientifique du GRIIS.

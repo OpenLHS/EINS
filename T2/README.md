@@ -1,23 +1,15 @@
-# Utilisation des ontologies dans le domaine de la santé
+# Modélisation des connaissances et de données en santé
 
-Ce répertoire contient le matériel pégagogique du thème 2 - Utilisation des ontologies dans le domaine de la santé.
+Ce répertoire contient le matériel pégagogique du thème 2.
 
-## Décrire l’intelligence ambiante pour offrir aux personnes fragiles une assistance personnalisée à domicile
-**Hélène PIGOT**
+## Introduction aux ontologies biomédicales 
+## Méthodes et outils pour le développement d'ontologies biomédicales
+**Adrien BARTON**
+Chargé de recherche CNRS, Institut de recherche en informatique de Toulouse (IRIT), France.
 
-Professeur au département d’informatique, Laboratoire DOMUS,
-Faculté des sciences, Université de Sherbrooke (Québec, Canada).
+Professeur associé au Département de médecine, Faculté de médecine et des sciences de santé, Université de Sherbrooke (Québec, Canada).
 
-## Intégration et interrogation avancées de données et de connaissances grâce au Web sémantique
+## Intégration et interrogation avancées de données et de connaissances grâce au Web Sémantique 
+## AskOmics : Outil pour l'intégration et l'interrogation avancées de données et de connaissances
 **Olivier DAMERON**
-
 Professeur à l’Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA); Université de Rennes (France). 
-
-Matériel pédagogique : https://gitlab.com/odameron/eins2023
-
-## Modélisation et raisonnement sur les parcours de soins 
-**Thomas GUYET**
-
-Chercheur à l’Institut national de recherche en sciences et technologies du numérique (Inria) à Lyon (France).
-
-Matériel pédagogique : https://gitlab.inria.fr/tguyet/Cours_EINS

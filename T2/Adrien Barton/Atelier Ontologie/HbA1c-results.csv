@@ -1,0 +1,12 @@
+ID,label,entity type,HbA1c concentration value,humanID
+ID,LABEL,TYPE,I has value in %,I quality of
+eins:0101,Logan,'Homo sapiens'
+eins:0102,Kendall,'Homo sapiens'
+eins:0103,Roman,'Homo sapiens'
+eins:0104,Shiv,'Homo sapiens'
+eins:0105,Tom,'Homo sapiens'
+eins:0001,HbTest#1,HbA1c concentration,8.0^^xsd:decimal,eins:0101
+eins:0002,HbTest#2,HbA1c concentration,6.3^^xsd:decimal,eins:0102
+eins:0003,HbTest#3,HbA1c concentration,9.2^^xsd:decimal,eins:0103
+eins:0004,HbTest#4,HbA1c concentration,4.5^^xsd:decimal,eins:0104
+eins:0005,HbTest#5,HbA1c concentration,7.6^^xsd:decimal,eins:0105

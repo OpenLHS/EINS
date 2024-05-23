@@ -2,26 +2,18 @@
 
 Ce répertoire contient le matériel pégagogique du thème 3 - Analyse des données en santé.
 
-## Entrepôt de données hospitalier pour un système de santé apprenant
-**Nicolas GARCELON**
+## Modélisation de la reconnaissance d'activités dans un habitat intelligent à l'aide d'une ontologie
+**Hubert Kenfack NGAMKAM**
+Professeur adjoint au Département d’informatique, Faculté des sciences, Université de Sherbrooke (Québec, Canada).
 
-Responsable de la plateforme Data science de l’Institut des maladies génétiques Imagine (France).
+## Analyse des données biologiques sous forme de graphe ontologique : modélisation et raisonnement sur les parcours de soins 
+**Thomas GUYET**
+Chercheur à l’Institut national de recherche en sciences et technologies du numérique (Inria) à Lyon (France).
 
-## L’analyse des données en maladies rares : exemple du Saguenay-Lac-Saint-Jean un living lab avant son temps
-**Cynthia GAGNON**
-
-Professeure à l’école de réadaptation de la Faculté de médecine et des sciences de la santé de l’Université de Sherbrooke (Québec, Canada).
-
-## Importance des systèmes d’aide à la décision clinique dans le domaine des maladies infectieuses
-**Louis VALIQUETTE**
-
-Professeur titulaire, Département de microbiologie et d’infectiologie, Faculté de médecine et des sciences de la santé (FMSS), Université de Sherbrooke (Québec, Canada).
-
-Directeur du Département de microbiologie et d’infectiologie, FMSS, Université de Sherbrooke.
-
-Directeur de la Plateforme de recherche, de valorisation, d’analyse et de liaison en informatique de la santé (PREVALIS).
+## Les grandes banques de données médicales et administratives du Québec pour la recherche en santé
+**Yohann CHIUu**
+Professeur adjoint au Département de médecine de famille et de médecine d’urgence, Faculté de médecine et des sciences de la santé, Université de Sherbrooke (Québec, Canada).
 
 ## Regard de biais sur l’analyse de données : contributions de la statistique au déroulement de la recherche en santé
 **Félix CAMIRAND LEMYRE**
-
-Professeur au département de mathématiques, Faculté des sciences, Université de Sherbrooke (Québec, Canada).
+Professeur au Département de mathématiques, Faculté des sciences, Université de Sherbrooke (Québec, Canada).
