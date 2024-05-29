@@ -1,6 +1,6 @@
-# Analyse des données en santé
+# Acquisition et analyse des données en santé
 
-Ce répertoire contient le matériel pégagogique du thème 3 - Analyse des données en santé.
+Ce répertoire contient le matériel pégagogique du thème 3.
 
 ## Modélisation de la reconnaissance d'activités dans un habitat intelligent à l'aide d'une ontologie
 **Hubert Kenfack NGAMKAM**
