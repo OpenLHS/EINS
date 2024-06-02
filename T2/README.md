@@ -13,3 +13,5 @@ Professeur associé au Département de médecine, Faculté de médecine et des s
 ## AskOmics : Outil pour l'intégration et l'interrogation avancées de données et de connaissances
 **Olivier DAMERON**
 Professeur à l’Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA); Université de Rennes (France). 
+
+https://gitlab.com/odameron/eins2024
