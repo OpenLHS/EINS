@@ -1,0 +1,10 @@
+PREFIX ex: <http://domus.usherbrooke.ca/ontologies/moredaha/2024/01/>
+
+SELECT ?capteur ?action
+WHERE {
+  ?capteur a ex:TemperatureSensor ;
+           ex:hasMeasurement ?temperature .
+  ?temperature ex:hasValue ?value .
+  BIND(IF(?value < 20, "Activer Chauffage", 
+       IF(?value > 25, "Activer Climatisation", "Aucune Action")) AS ?action)
+}

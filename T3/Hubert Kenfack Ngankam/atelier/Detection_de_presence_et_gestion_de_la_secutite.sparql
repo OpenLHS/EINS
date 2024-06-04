@@ -1,0 +1,10 @@
+PREFIX ex: <http://domus.usherbrooke.ca/ontologies/moredaha/2024/01/>
+
+SELECT ?detecteur ?action
+WHERE {
+  ?detecteur a ex:PresenceSensor ;
+             ex:hasMeasurement ?presence .
+  ?presence ex:hasValue ?value .
+  BIND(IF(?value = "true", "Allumer Lumières", "Aucune Action") AS ?action)
+}
+

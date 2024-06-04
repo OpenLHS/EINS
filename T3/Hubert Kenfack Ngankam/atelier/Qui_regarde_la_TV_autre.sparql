@@ -1,0 +1,14 @@
+PREFIX ex: <http://domus.usherbrooke.ca/ontologies/moredaha/2024/01/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?person
+WHERE {
+    ?person ex:isWatchingTV true .
+    ?person ex:isLocatedIn ex:livingroom1 .
+    ?tv ex:isLocatedIn ex:livingroom1 .
+    ?tv ex:hasState "Allumé" .
+    ?tv ex:isMeasuredBy ?tvSensor .
+    ?tvSensor rdf:type ex:LightSensor .
+    ?tvSensor ex:hasMeasurement ?measurement .
+    ?measurement ex:hasValue ?lightValue .
+    FILTER (?lightValue < 50) .
+}
