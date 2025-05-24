@@ -1,6 +1,6 @@
 # Enjeux éthiques, juridiques et acceptabilité citoyenne
 
-Ce répertoire contient le matériel pégagogique du thème 4.
+Ce répertoire contient le matériel pégagogique du thème 2.
 
 ## Information, confiance et acceptabilité sociale du partage des renseignements de santé : éléments de conception d’une politique publique
 **Daniel CARON**

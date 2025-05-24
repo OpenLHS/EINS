@@ -9,5 +9,5 @@ Chargé de recherche CNRS, Institut de recherche en informatique de Toulouse (IR
 Professeur associé au Département de médecine, Faculté de médecine et des sciences de santé, Université de Sherbrooke (Québec, Canada).
 
 ## Méthodes et outils pour le développement d'ontologies biomédicales
-**Paul Fabry**
+**Paul FABRY**
 Doctorant en informatique, GRIIS, Université de Sherbrooke (Québec, Canada)
