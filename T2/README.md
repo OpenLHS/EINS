@@ -1,17 +1,17 @@
-# Modélisation des connaissances et de données en santé
+# Enjeux éthiques, juridiques et acceptabilité citoyenne
 
-Ce répertoire contient le matériel pégagogique du thème 2.
+Ce répertoire contient le matériel pégagogique du thème 4.
 
-## Introduction aux ontologies biomédicales 
-## Méthodes et outils pour le développement d'ontologies biomédicales
-**Adrien BARTON**
-Chargé de recherche CNRS, Institut de recherche en informatique de Toulouse (IRIT), France.
+## Information, confiance et acceptabilité sociale du partage des renseignements de santé : éléments de conception d’une politique publique
+**Daniel CARON**
+Professeur, École nationale d’administration publique (Québec, Canada).
 
-Professeur associé au Département de médecine, Faculté de médecine et des sciences de santé, Université de Sherbrooke (Québec, Canada).
+## Décrypter les enjeux juridiques et éthiques et apprivoiser le cadre de gouvernance du numérique en santé
 
-## Intégration et interrogation avancées de données et de connaissances grâce au Web Sémantique 
-## AskOmics : Outil pour l'intégration et l'interrogation avancées de données et de connaissances
-**Olivier DAMERON**
-Professeur à l’Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA); Université de Rennes (France). 
+**Jean-Frédéric MÉNARD** 
+Professeur, Faculté de droit, Université de Sherbrooke (Québec, Canada).
 
-https://gitlab.com/odameron/eins2024
+et
+
+**Annabelle CUMYN**
+Professeure, Faculté de médecine et des sciences de la santé, Université de Sherbrooke (Québec, Canada).

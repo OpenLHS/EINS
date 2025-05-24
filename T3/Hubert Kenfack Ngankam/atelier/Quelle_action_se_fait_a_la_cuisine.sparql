@@ -1,6 +1,0 @@
-PREFIX ex: <http://domus.usherbrooke.ca/ontologies/moredaha/2024/01/>
-SELECT ?action
-WHERE {
-    ?person ex:performsAction ?action .
-    ?action ex:actionInvolvesRoom ex:kitchen1 .
-}

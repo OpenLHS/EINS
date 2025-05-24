@@ -13,12 +13,12 @@ Cet évènement scientifique s’adresse aux personnes effectuant des études un
 Les thèmes suivants seront abordés :
 
 * T1 - Introduction aux systèmes de santé apprenants ;
-* T2 - Modélisation des connaissances et de données en santé ;
-* T3 - Acquisition et analyse des données en santé ;
-* T4 - Enjeux éthiques, juridiques et acceptabilité citoyenne ;
+* T2 - Enjeux éthiques, juridiques et acceptabilité citoyenne ; 
+* T3 - Modélisation des connaissances et de données en santé ;
+* T4 - Analyse des données en santé ;
 * T5 - Transfert des connaissances ;
 
-Ce dépôt contient le matériel pédagogique de EINS incluant l’horaire, le plan d’enseignement (PDE.pdf) et les plans des activités (PDA) pour les présentations et les ateliers de chaque thème.
+Ce dépôt contient le matériel pédagogique de EINS incluant l’horaire, le plan d’enseignement (PDE.pdf) et les plans des activités (PDA) de chaque thème.
 
 ## Organisation
 
@@ -29,7 +29,7 @@ Comité organisateur
 * Pr Jean-François Ethier, Université de Sherbrooke, Canada
 * Pre Christina Khnaisser, Université de Sherbrooke, Canada
 
-Avec le soutien de :
+Avec le soutien de (merci beaucoup):
 * Sarah Bilodeau
 * Anne-Marie Cloutier
 * Maryse Couture
@@ -37,6 +37,6 @@ Avec le soutien de :
 * Jeanne Morin
 
 ## License
-© 2016-2024, GRIIS (http://griis.ca)
+© 2016-2025, GRIIS (http://griis.ca)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.

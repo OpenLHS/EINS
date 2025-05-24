@@ -1,7 +1,3 @@
-# Transfert de connaissances
+# Transfert de connaissance (cloture)
 
-Ce répertoire contient le matériel pégagogique du thème 5.
-
-## Atelier de vulgarisation scientifique
-**Dominique WOLFSHAGEN**
-Professionnelle de recherche à l’Institut quantique (IQ), Université de Sherbrooke (Québec, Canada).
+Ce répertoire contient le matériel pour l'activité de clôture, la grille d'évaluation des présentations et le gabarit du rapport technique à remettre au plus tard le 30 juin 2025 pour compléter l’activité pédagogique.

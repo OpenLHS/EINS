@@ -1,9 +1,0 @@
-PREFIX ex: <http://domus.usherbrooke.ca/ontologies/moredaha/2024/01/>
-
-SELECT DISTINCT ?capteur ?intensite
-WHERE {
-  ?capteur a ex:LightSensor ;
-           ex:hasMeasurement ?luminosite .
-  ?luminosite ex:hasValue ?value .
-  BIND(IF(?value < 100, "Élevée", "Basse") AS ?intensite)
-}
