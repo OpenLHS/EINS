@@ -1,0 +1,187 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hp:   <http://griis.ca/harry-potter#> .
+
+# Classes
+hp:sorcier a rdfs:Class .
+
+hp:professeur a rdfs:Class ;
+    rdfs:subClassOf hp:sorcier .
+
+hp:élève a rdfs:Class ;
+    rdfs:subClassOf hp:sorcier .
+
+hp:maison a rdfs:Class .
+hp:cours a rdfs:Class .
+
+# Propriétés
+hp:est_membre_de a rdf:Property ;
+    rdfs:domain hp:sorcier ;
+    rdfs:range hp:maison ;
+    rdfs:label "est membre de"@fr .
+
+hp:enseigne a rdf:Property ;
+    rdfs:domain hp:professeur ;
+    rdfs:range hp:cours ;
+    rdfs:label "enseigne"@fr .
+
+hp:ami_de a rdf:Property ;
+    rdfs:domain hp:élève ;
+    rdfs:range hp:élève ;
+    rdfs:label "ami de"@fr .
+
+hp:ennemi_de a rdf:Property ;
+    rdfs:domain hp:élève ;
+    rdfs:range hp:élève ;
+    rdfs:label "ennemi de"@fr .
+
+hp:dirige a rdf:Property ;
+    rdfs:domain hp:professeur ;
+    rdfs:range hp:maison ;
+    rdfs:label "dirige la maison"@fr .
+
+# Maisons
+hp:Gryffondor a hp:maison ;
+    rdfs:label "Gryffondor"@fr .
+
+hp:Serpentard a hp:maison ;
+    rdfs:label "Serpentard"@fr .
+
+hp:Poufsouffle a hp:maison ;
+    rdfs:label "Poufsouffle"@fr .
+
+hp:Serdaigle a hp:maison ;
+    rdfs:label "Serdaigle"@fr .
+
+# Professeurs
+hp:McGonagall a hp:professeur ;
+    foaf:name "Minerva McGonagall" ;
+    hp:est_membre_de hp:Gryffondor ;
+    hp:enseigne hp:Transfig ;
+    hp:dirige hp:Gryffondor .
+
+hp:Rogue a hp:professeur ;
+    foaf:name "Severus Rogue" ;
+    hp:est_membre_de hp:Serpentard ;
+    hp:enseigne hp:Potions ;
+    hp:enseigne hp:DCLFDM ;
+    hp:dirige hp:Serpentard .
+
+hp:Dumbledore a hp:professeur ;
+    foaf:name "Albus Dumbledore" ;
+    hp:est_membre_de hp:Gryffondor .
+
+hp:Lupin a hp:professeur ;
+    foaf:name "Remus Lupin" ;
+    hp:est_membre_de hp:Gryffondor ;
+    hp:enseigne hp:DCLFDM .
+
+hp:Chourave a hp:professeur ;
+    foaf:name "Pomona Chourave" ;
+    hp:est_membre_de hp:Poufsouffle ;
+    hp:enseigne hp:Botan ;
+    hp:dirige hp:Poufsouffle .
+
+hp:Filius a hp:professeur ;
+    foaf:name "Filius Flitwick" ;
+    hp:est_membre_de hp:Serdaigle ;
+    hp:enseigne hp:Sorti ;
+    hp:dirige hp:Serdaigle .
+
+hp:Quirrell a hp:professeur ;
+    foaf:name "Quirinus Quirrell" ;
+    hp:est_membre_de hp:Serdaigle ;
+    hp:enseigne hp:DCLFDM .
+
+hp:Lockhart a hp:professeur ;
+    foaf:name "Gilderoy Lockhart" ;
+    hp:est_membre_de hp:Serdaigle ;
+    hp:enseigne hp:DCLFDM .
+
+hp:Maugrey a hp:professeur ;
+    foaf:name "Alastor Maugrey" ;
+    hp:est_membre_de hp:Gryffondor ;
+    hp:enseigne hp:DCLFDM .
+
+hp:Ombrage a hp:professeur ;
+    foaf:name "Dolores Jane Ombrage" ;
+    hp:est_membre_de hp:Serpentard ;
+    hp:enseigne hp:DCLFDM .  
+
+hp:Trelawney a hp:professeur ;
+    foaf:name "Sibylle Trelawney" ;
+    hp:est_membre_de hp:Serdaigle ;
+    hp:enseigne hp:Divination .
+
+# Élèves
+hp:Harry a hp:élève ;
+    foaf:name "Harry Potter" ;
+    hp:est_membre_de hp:Gryffondor ;
+    hp:ami_de hp:Ron, hp:Hermione, hp:Neville, hp:Luna, hp:Cedric ;
+    hp:ennemi_de hp:Drago, hp:Goyle, hp:Crabbe .
+
+hp:Ron a hp:élève ;
+    foaf:name "Ron Weasley" ;
+    hp:est_membre_de hp:Gryffondor ;
+    hp:ami_de hp:Harry, hp:Hermione, hp:Neville, hp:Luna, hp:Cedric ;
+    hp:ennemi_de hp:Drago, hp:Goyle, hp:Crabbe .
+
+hp:Hermione a hp:élève ;
+    foaf:name "Hermione Granger" ;
+    hp:est_membre_de hp:Gryffondor ;
+    hp:ami_de hp:Harry, hp:Ron, hp:Neville, hp:Luna, hp:Cedric ;
+    hp:ennemi_de hp:Drago, hp:Goyle, hp:Crabbe .
+
+hp:Drago a hp:élève ;
+    foaf:name "Drago Malfoy" ;
+    hp:est_membre_de hp:Serpentard ;
+    hp:ami_de hp:Crabbe, hp:Goyle ;
+    hp:ennemi_de hp:Harry, hp:Ron, hp:Hermione, hp:Neville, hp:Luna .
+
+hp:Crabbe a hp:élève ;
+    foaf:name "Vincent Crabbe" ;
+    hp:est_membre_de hp:Serpentard ;
+    hp:ami_de hp:Drago, hp:Goyle ;
+    hp:ennemi_de hp:Harry, hp:Ron, hp:Hermione, hp:Neville, hp:Luna .
+
+hp:Goyle a hp:élève ;
+    foaf:name "Gregory Goyle" ;
+    hp:est_membre_de hp:Serpentard ;
+    hp:ami_de hp:Crabbe, hp:Drago ;
+    hp:ennemi_de hp:Harry, hp:Ron, hp:Hermione, hp:Neville, hp:Luna .
+
+hp:Neville a hp:élève ;
+    foaf:name "Neville Londubat" ;
+    hp:est_membre_de hp:Gryffondor ;
+    hp:ami_de hp:Harry, hp:Hermione, hp:Ron, hp:Luna ;
+    hp:ennemi_de hp:Drago, hp:Goyle, hp:Crabbe .
+
+hp:Luna a hp:élève ;
+    foaf:name "Luna Lovegood" ;
+    hp:est_membre_de hp:Serdaigle ;
+    hp:ami_de hp:Harry, hp:Hermione, hp:Ron, hp:Neville ;
+    hp:ennemi_de hp:Drago, hp:Goyle, hp:Crabbe .
+
+hp:Cedric a hp:élève ;
+    foaf:name "Cedric Diggory" ;
+    hp:est_membre_de hp:Poufsouffle .
+
+# Cours
+hp:Transfig a hp:cours ;
+    rdfs:label "Transfiguration"@fr .
+
+hp:Potions a hp:cours ;
+    rdfs:label "Potions"@fr .
+
+hp:DCLFDM a hp:cours ;
+    rdfs:label "Défense contre les forces du Mal"@fr .
+
+hp:Sorti a hp:cours ;
+    rdfs:label "Sortilèges"@fr .
+
+hp:Botan a hp:cours ;
+    rdfs:label "Botanique"@fr .
+
+hp:Divin a hp:cours ;
+    rdfs:label "Divination"@fr .
