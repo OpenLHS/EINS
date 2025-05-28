@@ -1,0 +1,5 @@
+http://purl.obolibrary.org/obo/FOODON_00002403 #Food Material
+http://purl.obolibrary.org/obo/FOODON_00001002 #Food product
+http://purl.obolibrary.org/obo/FOODON_00002451 #Food transformation process
+http://purl.obolibrary.org/obo/FOODON_03450002 #Food cooking
+http://purl.obolibrary.org/obo/FOODON_03450005 #Food baking

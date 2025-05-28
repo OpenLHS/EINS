@@ -1,0 +1,59 @@
+
+##Exercice 1
+
+robot extract --method MIREOT `
+--input foodon-test.owl `
+--upper-term "obo:BFO_0000015" `
+--lower-term "obo:FOODON_03450005" `
+--output foodon-mireot.owl
+
+robot extract --method MIREOT --input foodon-test.owl --upper-term "obo:BFO_0000015" --lower-term "obo:FOODON_03450005" --output foodon-mireot.owl
+
+robot extract --method BOT `
+--input foodon-test.owl `
+--term-file "foodon-import.txt" `
+--output foodon-bottom.owl
+
+robot extract --method BOT --input foodon-test.owl --term-file "foodon-import.txt" --output foodon-bottom.owl
+
+robot extract --method TOP `
+--input foodon-test.owl `
+--term-file "foodon-import.txt" `
+--output foodon-top.owl
+
+robot extract --method TOP --input foodon-test.owl --term-file "foodon-import.txt" --output foodon-top.owl
+
+##Exercice 2
+
+robot diff `
+--left foodon-mireot.owl `
+--right foodon-bottom.owl `
+--format pretty `
+--output diff.txt
+
+robot diff --left foodon-star.owl --right foodon-bottom.owl --output diff.txt
+
+##Exercice 3
+
+robot merge `
+--input pizza.owl `
+--output pizza-merged.owl
+
+robot merge --input pizza.owl --output pizza-merged.owl
+
+robot merge `
+--input pizza.owl `
+--input foodon-bottom.owl `
+--output pizza-foodon-merged.owl
+
+robot merge --input pizza.owl --input foodon-bottom.owl --output pizza-foodon-merged.owl
+
+##exercice 4
+
+robot export `
+--input pizza.owl `
+--header "ID|LABEL|Type|IAO:0000115" `
+--include "classes properties" `
+--export pizza.xslx
+
+robot export --input pizza.owl --header "IRI|LABEL|Type|IAO:0000115" --include "classes properties" --export pizza.xlsx
