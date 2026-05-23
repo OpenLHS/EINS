@@ -1,0 +1,145 @@
+##EXERCICE 1
+
+
+#Liste préfixes
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX hp: <http://griis.ca/harry-potter#>
+
+
+# Qu’est-ce qu’il y a dans ce fichier?
+
+SELECT ?sujet ?prop ?objet
+
+WHERE {
+	?sujet ?prop ?objet .
+}
+
+ou
+
+SELECT *
+
+WHERE {
+	?sujet ?prop ?objet .
+}
+
+# Les trier (ORDER BY)
+
+SELECT ?sujet ?prop ?objet
+
+WHERE {
+	?sujet ?prop ?objet .
+}
+ORDER BY ?sujet
+
+
+# Les trier (LIMIT)
+
+SELECT ?sujet ?prop ?objet
+
+WHERE {
+	?sujet ?prop ?objet .
+}
+ORDER BY ?sujet
+LIMIT 50
+
+# Afficher toutes les données à propos de Harry Potter
+
+SELECT ?sujet ?prop ?objet
+
+WHERE {
+	hp:Harry ?prop ?objet .
+}
+
+ou
+
+SELECT ?sujet ?prop ?objet
+
+WHERE {
+	?sujet ?prop ?objet .
+  FILTER(?sujet = hp:Harry)
+}
+
+##EXERCICE 2
+
+# Faire la liste des élèves (hp:élève)
+
+SELECT ?élève
+
+WHERE {
+	?élève rdf:type hp:élève .
+
+}
+
+
+# Rajouter leurs noms (foaf:name)
+
+SELECT ?élève ?nom
+
+WHERE {
+	?élève rdf:type hp:élève .
+    ?élève foaf:name ?nom
+
+}
+
+
+##EXERCICE 3
+
+# Quel cours enseigne le Prof. McGonagall ?
+(hp:enseigne, hp:McGonagall)
+
+SELECT ?cours
+
+WHERE {
+	hp:McGonagall hp:enseigne ?cours .
+
+}
+
+
+# Quels sont les noms des professeurs qui on enseigné le cours de Défence contre les Forces du Mal ?
+(hp:DCLFDM, foaf:name)
+
+SELECT ?nom
+
+WHERE {
+	?prof hp:enseigne hp:DCLFDM .
+  	?prof foaf:name ?nom
+
+}
+
+##EXERCICE 4
+
+# Lister les maisons (noms) avec les noms de leurs membres
+(hp:maison, rdfs:label, hp:est_membre_de, foaf:name)
+
+SELECT ?nom_maison ?nom_membre
+
+WHERE {
+	?maison rdf:type hp:maison .
+  	?membre hp:est_membre_de ?maison .
+    ?maison rdfs:label ?nom_maison .
+  	?membre foaf:name ?nom_membre .
+
+}
+
+# BONUS: Classer par nombre de membres
+
+SELECT ?nom_maison (COUNT(?membre) AS ?nombre)
+
+WHERE {
+	?maison rdf:type hp:maison .
+  	?membre hp:est_membre_de ?maison .
+    ?maison rdfs:label ?nom_maison .
+
+}
+GROUP BY ?nom_maison
+
+#EXERCICE 5
+
+SELECT ?sorcier ?nom
+WHERE {
+?sorcier rdf:type hp:sorcier .
+    ?sorcier foaf:name ?nom .
+}

@@ -12,15 +12,11 @@ Codirecteur scientifique du GRIIS.
 **Jean-Philippe MORISETTE**
 Chargé de cours au Département de mathématiques, Faculté des sciences, Université de Sherbrooke (Québec, Canada).
 
-## Intelligence artificielle : êtes-vous prêt à accompagner vos étudiants et vos patients ?
-**Jean-François ÉTHIER**
+## Exploiter les données clinico administratives au Québec : fondements, enjeux et mise en pratique 
+**Isabelle DUFOUR**
+Professeure à l’École des sciences infirmières, Faculté de médecine et des sciences de la santé, Université de Sherbrooke.
 
-Professeur titulaire en médecine à l’Université de Sherbrooke (Québec, Canada).
+et
 
-Cofondateur et codirecteur scientifique du GRIIS
-
-Titulaire de la Chaire de recherche en informatique de la santé de l’Université de Sherbrooke 
-
-## C.9	Les grandes banques de données médicales et administratives du Québec pour la recherche en santé : un cas d’étude
-**Yohann CHIUu**
-Professeur adjoint au Département de médecine de famille et de médecine d’urgence, Faculté de médecine et des sciences de la santé, Université de Sherbrooke (Québec, Canada).
+**Yohann Moanahere CHIU**
+Professeur au Département de médecine de famille et de médecine d’urgence, Faculté de médecine et des sciences de la santé, Université de Sherbrooke.

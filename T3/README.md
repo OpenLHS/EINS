@@ -6,8 +6,8 @@ Ce répertoire contient le matériel pégagogique du thème 3.
 **Adrien BARTON**
 Chargé de recherche CNRS, Institut de recherche en informatique de Toulouse (IRIT), France.
 
-Professeur associé au Département de médecine, Faculté de médecine et des sciences de santé, Université de Sherbrooke (Québec, Canada).
+Professeur associé au Département de médecine, Faculté de médecine et des sciences de santé, Université de Sherbrooke.
 
 ## Méthodes et outils pour le développement d'ontologies biomédicales
 **Paul FABRY**
-Doctorant en informatique, GRIIS, Université de Sherbrooke (Québec, Canada)
+Doctorant en informatique au Département d'informatique, Faculté des sciences, GRIIS, Université de Sherbrooke.
