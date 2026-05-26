@@ -10,6 +10,10 @@ Entrer la commande suivante (Mac/Windows):
 
 uv tool install rdflib-endpoint --with uvicorn --with click --with fastapi
 
+Pour vérifier si l'installation fonctionne:
+
+rdflib-endpoint --help
+
  - Lancer rdflib-endpoint:
 
 Il faut au préalable télécharger le fichier harry_potter.ttl et ouvrir un terminal dans le dossier où le fichier a été téléchargé.
