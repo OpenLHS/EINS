@@ -1,0 +1,31 @@
+# rdflib-enpoint install
+
+ - Installer UV
+Ouvrir un terminal et entrer la commande suivante:
+Mac: curl -LsSf https://astral.sh/uv/install.sh | sh
+Windows: powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+ - Installer rdflib-endpoint
+Entrer la commande suivante (Mac/Windows): 
+
+uv tool install rdflib-endpoint --with uvicorn --with click --with fastapi
+
+ - Lancer rdflib-endpoint:
+
+Il faut au préalable télécharger le fichier harry_potter.ttl et ouvrir un terminal dans le dossier où le fichier a été téléchargé.
+Entrer la commande suivante (Mac/Windows): 
+
+rdflib-endpoint serve harry_potter.ttl
+
+ - Désinstaller uv et rdflib-endpoint
+Entrer la commande suivante (Mac/Windows): 
+
+uv self uninstall
+
+# Liste de préfixes
+
+prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix hp:   <http://griis.ca/harry-potter#>
+
